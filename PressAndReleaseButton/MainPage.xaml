@@ -8,7 +8,7 @@
     <StackLayout>
         <Label x:Name="label"
                Text="You spin my head right round"
-               TextColor="#BC6767"
+               TextColor="#FFFFFF"
                FontSize="Large"
                VerticalOptions="CenterAndExpand"
                HorizontalOptions="Center" />
