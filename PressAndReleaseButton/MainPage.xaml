@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PressAndReleaseButton.MainPage"
+             BackgroundColor="#89A3FA"
+             Title="Press and Release Button">
+
+    <StackLayout>
+        <Label x:Name="label"
+               Text="You spin my head right round"
+               TextColor="White"
+               FontSize="Large"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="Center" />
+        <Button Text="Press"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Pressed="OnButtonPressed"
+                Released="OnButtonReleased" />
+    </StackLayout>
+
+</ContentPage>
